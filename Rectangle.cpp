@@ -13,6 +13,10 @@ Rectangle::Rectangle(int l, int w) {
   length = l;
   width = w;
 }
+void Rectangle::inputRecDetails(int l,int w) {
+	length = l;
+  width = w;
+}
 // Destructor Implementation
 Rectangle::~Rectangle() {
   cout << "Rectangle Destructor called" << endl;

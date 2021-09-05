@@ -10,6 +10,9 @@ Circle::Circle() {
 Circle::Circle(int r) {
   radius = r;
 }
+void Circle::setradius(int r){
+  radius=r;
+}
 // Destructor Implementation
 Circle::~Circle() {
   cout << "Circle Destructor called" << endl;

@@ -23,7 +23,24 @@ int main() {
    // 7. Delete the Rectangle Object from memory
    // 8. Delete the Circle Object from memory
   
-  
+  Rectangle* rec3;
+	
+	rec3 = new Rectangle();
+
+	rec3->inputRecDetails(length,width);
+	
+
+	Circle* cir3;
+
+	cir3 = new Circle();
+
+	cir3->setradius(radius);
+	cout << " Rectangle Area is:" << rec3->calcArea()<<endl;
+	cout << " Circle Area is:" << cir3->calcArea()<<endl;
+
+	delete rec3;
+	delete cir3;
+
    // ============ DO NOT CHANGE THE CODE BELOW ===================
    cout << "End of Program" << endl;
   
