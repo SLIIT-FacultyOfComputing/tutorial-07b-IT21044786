@@ -5,13 +5,12 @@ Item::Item()
 {
 itemCode=0;
 unitPrice=0;
-discount=0;
+
 }
-Item::Item(int Item_code,float punitPrice,float pdiscount)
+Item::Item(int icode,float uPrice)
 {
-  itemCode=Item_code;
-  unitPrice=punitPrice;
-  discount=pdiscount;
+  itemCode=icode;
+  unitPrice=uPrice;
 }
 
 // 4. Implement Default Constructor Implementation

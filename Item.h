@@ -7,7 +7,7 @@ class Item {
       float discount; // out of 100 e.g. discount = 15
    public:
       Item();
-      Item(int Item_code,float punitPrice,float pdiscount);
+      Item(int icode,float uPrice);
       ~Item();
       // 1. Write the Default Constructor
       // 2. Write the Overloaded Constructor
